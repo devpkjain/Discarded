@@ -39,6 +39,9 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
+    implementation "com.fasterxml.jackson.core:jackson-databind:${rootProject.ext.jacksonDatabindVersion}"
+    implementation "com.fasterxml.jackson.module:jackson-module-kotlin:${rootProject.ext.jacksonDatabindVersion}"
+
     // Support Design
     implementation "com.android.support:design:$android_support_version"
 
